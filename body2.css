@@ -1,0 +1,105 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px; 
+}
+
+header {
+    background-color: #1abc9c; /* Teal */
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+nav {
+    background-color: #34495e; /* Dark Blue */
+    display: inline-block;
+    width: 80%;
+    vertical-align: top;
+    padding: 10px 0;
+    text-align: right;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0 10px;
+}
+
+main {
+    background-color: #ecf0f1; /* Light Grey */
+    padding: 20px;
+    min-height: 400px;
+}
+
+footer {
+    background-color: #bdc3c7;
+    padding: 10px;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Georgia', serif;
+}
+
+p {
+    line-height: 1.5;
+}
+
+/* INSTRUCTION 3: Comment out the styling for the li element */
+/* li {
+    display: inline-block;
+    width: 100px;
+} 
+*/
+nav ul {
+    display: inline-block;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 15px;
+}
+
+nav img {
+    width: 10%;
+    vertical-align: middle;
+    border-radius: 50%;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 20px;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.grid > div {
+    width: 40%;
+    margin: 10px;
+    border: 2px solid #fff;
+}
+
+.grid img {
+    width: 100%;
+    display: block;
+}
+
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.flex img {
+    width: 150px; 
+    height: 150px;
+    object-fit: cover; 
+    border: 3px solid #34495e;
+    margin: 10px;
+}
